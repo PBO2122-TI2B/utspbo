@@ -20,7 +20,4 @@ public class Penitipan {
         System.out.println("Size Helm : "+ HelmMotor.getSize());
         System.out.println("Symbol Helm : "+ HelmMotor.getSymbolHelm());
     }
-    public void Motor(DataPenitipan anggota2, Helm HelmMotor){
-        return ;
-    }
 }
