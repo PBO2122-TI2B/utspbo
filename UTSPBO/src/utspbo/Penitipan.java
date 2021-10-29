@@ -13,9 +13,9 @@ public class Penitipan {
     public Helm Helm;
     public DataPenitipan anggota;
     
-    public void motor(Helm Helmotorbaru, DataPenitipan anggotabaru){
-        Helm = Helmotorbaru;
-        anggota = anggotabaru;
+    public void motor(Helm Helm, DataPenitipan anggota){
+        Helm = Helm;
+        anggota = anggota;
     }
     
     public void TampilanData(){
