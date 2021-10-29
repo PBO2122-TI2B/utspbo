@@ -11,20 +11,20 @@ package utspbo;
  */
 public class Utama {
     public static void main (String[]args){
-        Helm Helmotor =new Helm();
+        Helm Helm =new Helm();
         DataPenitipan anggota = new DataPenitipan();
         
         anggota.setNama("Diajeng Nidzom Yoesharnilillah");
         anggota.setJenisKelamin("Perempuan");
         anggota.setAlamat("Jl.Kapi Pramuja Raya Blok 18b");
         
-        Helmotor.setSize("M");
-        Helmotor.setMerkHelm("CARGLOSS");
-        Helmotor.setWarnaHelm("Hitam Doff");
-        Helmotor.setSymbolHelm("Logo Vektor Cargloss");
+        Helm.setSize("M");
+        Helm.setMerkHelm("CARGLOSS");
+        Helm.setWarnaHelm("Hitam Doff");
+        Helm.setSymbolHelm("Logo Vektor Cargloss");
         
         Penitipan pt = new Penitipan();
-        pt.motor(Helmotor, anggota);
+        pt.motor(Helm, anggota);
         pt.TampilanData();
         
         HelmHalfFace hhf = new HelmHalfFace("RSV","M","Logo Vektor","Hitam Doff","Cembung");
